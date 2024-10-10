@@ -32,7 +32,7 @@ EOH
       driver = "docker"
 
       config {
-        image = "ghcr.io/raphlopez/learn-nomad-getting-started/ptc-web:1.0"
+        image = "ghcr.io/raphlopez/learn-nomad-getting-started/webviewer"
         ports = ["web"]
       }
     }
